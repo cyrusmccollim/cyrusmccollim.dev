@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyrus McCollim — Software Developer</title>
+  <title>Cyrus McCollim</title>
   <meta name="description" content="Computer science student at Loyola University Maryland with a passion for data, design, and software.">
   <meta name="theme-color" content="#121212">
   <meta name="author" content="Cyrus McCollim">
@@ -21,10 +21,9 @@
 
       <div class="cell area-intro">
         <div class="intro-top">
-          <svg width="40" height="40" viewBox="0 0 100 100" fill="none">
-            <circle cx="50" cy="50" r="48" stroke="rgba(255,255,255,0.8)" stroke-width="3" />
-            <text x="50" y="62" text-anchor="middle" fill="white" font-family="'Playfair Display', serif" font-size="42" font-weight="bold">CM</text>
-          </svg>
+          <div class="profile-img">
+            <img src="profile.png">
+          </div>
 
           <div class="status-badge">
             <div class="status-dot"></div>
@@ -34,17 +33,17 @@
 
         <div>
           <span class="label">Software &middot; Design &middot; Data</span>
-          <h1>Cyrus McCollim</h1>
+          <h1 style="font-size:350%">Cyrus McCollim</h1>
           <p class="intro-desc">
             Student, programmer, and music nerd.
           </p>
           <div class="intro-actions">
             <a href="mailto:contact@cyrusmccollim.dev" class="btn">Email</a>
             <a href="./Resume%20-%20Cyrus%20McCollim.pdf" target="_blank" class="btn btn-outline btn-resume">Resume</a>
-            <a href="https://github.com/cyrusmcco" target="_blank" class="btn btn-outline btn-icon-circle">
+            <a href="https://github.com/cyrusmccollim" target="_blank" class="icon-link">
              <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c-5.525 0-10 4.475-10 10a9.99 9.99 0 0 0 6.837 9.488c.5.087.688-.213.688-.476c0-.237-.013-1.024-.013-1.862c-2.512.463-3.162-.612-3.362-1.175c-.113-.288-.6-1.175-1.025-1.413c-.35-.187-.85-.65-.013-.662c.788-.013 1.35.725 1.538 1.025c.9 1.512 2.337 1.087 2.912.825c.088-.65.35-1.087.638-1.337c-2.225-.25-4.55-1.113-4.55-4.938c0-1.088.387-1.987 1.025-2.687c-.1-.25-.45-1.275.1-2.65c0 0 .837-.263 2.75 1.024a9.3 9.3 0 0 1 2.5-.337c.85 0 1.7.112 2.5.337c1.913-1.3 2.75-1.024 2.75-1.024c.55 1.375.2 2.4.1 2.65c.637.7 1.025 1.587 1.025 2.687c0 3.838-2.337 4.688-4.562 4.938c.362.312.675.912.675 1.85c0 1.337-.013 2.412-.013 2.75c0 .262.188.574.688.474A10.02 10.02 0 0 0 22 12c0-5.525-4.475-10-10-10"/></svg>
             </a>
-            <a href="https://www.linkedin.com/in/cyrusmccollim" target="_blank" class="btn btn-outline btn-icon-circle">
+            <a href="https://www.linkedin.com/in/cyrusmccollim" target="_blank" class="icon-link">
               <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
             </a>
           </div>
@@ -71,7 +70,7 @@
 
       <div class="cell area-time">
         <span class="label label-sub sm-margin">BASED IN</span>
-        <span class="label label-sub">Baltimore, MD</span>
+        <div class="location-main">Baltimore, MD</div>
         <div id="clock" class="clock-display">--:--</div>
       </div>
 
@@ -89,7 +88,7 @@
           <div class="exp-role">Data Annotator</div>
           <span class="exp-company">Welocalize</span>
           <span class="exp-date">July 2024 – Sept 2025</span>
-          <p class="exp-desc">Evaluated content quality to improve Google Search relevance models.</p>
+          <p class="exp-desc">Evaluated search results for quality and helpfulness to improve Google Search relevance models.</p>
         </div>
         <div class="display-text display-text-corner">EXP</div>
       </div>
@@ -107,6 +106,10 @@
           <span class="tag">React Native</span>
           <span class="tag">ML Kit</span>
           <span class="tag">ONNX</span>
+        </div>
+
+        <div class="proj-img-container">
+          <img id="proj-img" src="OrganicReader/Home.png" alt="OrganicReader App Interface" class="proj-phone-img">
         </div>
       </a>
 
@@ -129,13 +132,13 @@
         <span class="label">About</span>
         <h2 class="about-title">Software &amp; Art</h2>
         <p class="about-text">
-          Currently pursuing a B.S. in Computer Science at Loyola University Maryland and working on OrganicReader.
+          Currently pursuing a B.S. in Computer Science at Loyola University Maryland and working on <a href="https://github.com/cyrusmcco/OrganicReader" target="_blank" class="about-link">OrganicReader</a>.
         </p>
-        <p class="about-text-mt">
+        <p class="about-text">
           I enjoy building tools that feel good to use, and are performant, accessibile, and visually graceful.
         </p>
-        <p class="about-text-mt">
-          Aside from programming, I also have a passion for composing piano and orchestral music. Have a listen here.
+        <p class="about-text">
+          Aside from programming, I also have a passion for composing piano and orchestral music. Have a listen <a href="#" class="about-link">here</a>.
         </p>
         <div class="display-text display-text-corner">ABT</div>
       </div>
@@ -180,11 +183,52 @@
         hour12: true,
         timeZone: 'America/New_York'
       });
-      const cleanTime = timeString.replace(/ [AP]M/, '');
-      document.getElementById('clock').innerText = cleanTime;
+      document.getElementById('clock').innerText = timeString;
     }
     setInterval(updateTime, 1000);
     updateTime();
+
+    const images = [
+      'OrganicReader/Home.png',
+      'OrganicReader/Library.png',
+      'OrganicReader/Playback.png',
+      'OrganicReader/Settings.png',
+      'OrganicReader/Voices.png'
+    ];
+    let currentImgIndex = 0;
+    const container = document.querySelector('.proj-img-container');
+
+    const img1 = document.getElementById('proj-img');
+    const img2 = document.createElement('img');
+
+    img2.className = 'proj-phone-img';
+    img2.style.opacity = '0';
+    img2.alt = "OrganicReader App Interface";
+    container.appendChild(img2);
+
+    let activeImg = img1;
+    let bufferImg = img2;
+
+    function rotateImage() {
+      const nextIndex = (currentImgIndex + 1) % images.length;
+
+      bufferImg.src = images[nextIndex];
+
+      bufferImg.style.zIndex = '2';
+      activeImg.style.zIndex = '1';
+
+      bufferImg.onload = () => {
+        bufferImg.style.opacity = '1';
+        activeImg.style.opacity = '0';
+
+        currentImgIndex = nextIndex;
+        const temp = activeImg;
+        activeImg = bufferImg;
+        bufferImg = temp;
+      };
+    }
+
+    setInterval(rotateImage, 5000);
   </script>
 </body>
 </html>
